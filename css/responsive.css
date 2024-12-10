@@ -1,4 +1,5 @@
 /* Soluzione qui */
+/* tablet */
 @media screen and (min-width: 768px) {
     #topbar {
         height: 70px;
@@ -36,5 +37,25 @@
         margin-right: 10px;
         margin-bottom: 10px;
         box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
+    }
+}
+/* desktop */
+@media screen and (min-width: 992px){
+    .recipe-card {
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .recipe-video {
+        height: 30vw;
+        flex-basis: 70%;
+    }
+    .recipe-info {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
     }
 }
